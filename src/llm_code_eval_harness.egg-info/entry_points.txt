@@ -1,0 +1,2 @@
+[console_scripts]
+llm-eval = llm_code_eval_harness.cli:main
