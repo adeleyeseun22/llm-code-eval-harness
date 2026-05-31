@@ -1,0 +1,32 @@
+[
+    {
+      "task_id": "sum_two_numbers",
+      "model_name": "model_alpha",
+      "code": "def add_numbers(a, b):\n    return a + b\n"
+    },
+    {
+      "task_id": "reverse_string",
+      "model_name": "model_alpha",
+      "code": "def reverse_string(text):\n    return text[::-1]\n"
+    },
+    {
+      "task_id": "is_even",
+      "model_name": "model_alpha",
+      "code": "def is_even(number):\n    return number % 2 == 0\n"
+    },
+    {
+      "task_id": "sum_two_numbers",
+      "model_name": "model_beta",
+      "code": "def add_numbers(a, b):\n    return a - b\n"
+    },
+    {
+      "task_id": "reverse_string",
+      "model_name": "model_beta",
+      "code": "def reverse_string(text):\n    return text\n"
+    },
+    {
+      "task_id": "is_even",
+      "model_name": "model_beta",
+      "code": "def is_even(number):\n    while True:\n        pass\n"
+    }
+  ]

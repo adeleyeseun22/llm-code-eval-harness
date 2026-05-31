@@ -1,0 +1,38 @@
+[
+    {
+      "task_id": "sum_two_numbers",
+      "title": "Sum Two Numbers",
+      "prompt": "Write a function called add_numbers that accepts two numbers and returns their sum.",
+      "entrypoint": "add_numbers",
+      "tests": [
+        "assert add_numbers(2, 3) == 5",
+        "assert add_numbers(-1, 1) == 0",
+        "assert add_numbers(0, 0) == 0"
+      ],
+      "timeout_seconds": 2
+    },
+    {
+      "task_id": "reverse_string",
+      "title": "Reverse String",
+      "prompt": "Write a function called reverse_string that accepts a string and returns the reversed string.",
+      "entrypoint": "reverse_string",
+      "tests": [
+        "assert reverse_string('abc') == 'cba'",
+        "assert reverse_string('hello') == 'olleh'",
+        "assert reverse_string('') == ''"
+      ],
+      "timeout_seconds": 2
+    },
+    {
+      "task_id": "is_even",
+      "title": "Check Even Number",
+      "prompt": "Write a function called is_even that returns True if a number is even and False otherwise.",
+      "entrypoint": "is_even",
+      "tests": [
+        "assert is_even(2) is True",
+        "assert is_even(7) is False",
+        "assert is_even(0) is True"
+      ],
+      "timeout_seconds": 2
+    }
+  ]
