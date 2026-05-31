@@ -1,3 +1,5 @@
+![Python CI](https://github.com/adeleyeseun22/llm-code-eval-harness/actions/workflows/ci.yml/badge.svg)
+
 # LLM Code Evaluation Harness
 
 A Python evaluation harness for testing AI-generated code against benchmark tasks, unit tests, execution timeouts, and structured scoring reports.
